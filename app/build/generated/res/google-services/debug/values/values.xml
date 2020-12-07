@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">638808033276-9uc35uf6k16thsfk979idkvf9t659ssh.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://bibliotekuser.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">638808033276</string>
+    <string name="google_api_key" translatable="false">AIzaSyCw7Q_3DjYyFTWtM6CGpNI8uT1y_ox7oP0</string>
+    <string name="google_app_id" translatable="false">1:638808033276:android:ae7bbff06770d7cde89479</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCw7Q_3DjYyFTWtM6CGpNI8uT1y_ox7oP0</string>
+    <string name="google_storage_bucket" translatable="false">bibliotekuser.appspot.com</string>
+    <string name="project_id" translatable="false">bibliotekuser</string>
+</resources>

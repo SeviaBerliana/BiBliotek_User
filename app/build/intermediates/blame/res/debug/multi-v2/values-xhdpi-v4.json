@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\PBPApplication\\TUBES UAS\\UnitTesting\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-2\\files-2.1\\0ad3b3291bf1be86268284a264377d94\\jetified-mapbox-android-navigation-ui-0.42.6\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,47",
+                        "endOffsets": "105,153"
+                    }
+                }
+            ]
+        }
+    ]
+}

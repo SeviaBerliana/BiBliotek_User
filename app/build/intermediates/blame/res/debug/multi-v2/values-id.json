@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\PBPApplication\\TUBES UAS\\UnitTesting\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-2\\files-2.1\\ffe062db1a692c220794fa0d800be75c\\jetified-mapbox-android-navigation-0.42.6\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-2\\files-2.1\\0ad3b3291bf1be86268284a264377d94\\jetified-mapbox-android-navigation-ui-0.42.6\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,105,157",
+                        "endColumns": "49,51,52",
+                        "endOffsets": "100,152,205"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "113,163,215",
+                        "endColumns": "49,51,52",
+                        "endOffsets": "158,210,263"
+                    }
+                }
+            ]
+        }
+    ]
+}
