@@ -31,7 +31,6 @@ public class PengumumanRecycleViewAdapter extends RecyclerView.Adapter<Pengumuma
                 parent, false);
 
         return new PengumumanRecycleViewAdapter.PengumumanViewHolder(binding);
-
     }
 
     @Override

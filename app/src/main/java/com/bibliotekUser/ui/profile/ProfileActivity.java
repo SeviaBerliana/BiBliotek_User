@@ -82,7 +82,6 @@ public class ProfileActivity extends AppCompatActivity {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if (user != null) {
             for (UserInfo profile : user.getProviderData()) {
-                // Name, email address, and profile photo Url
                 nama = profile.getDisplayName();
             }
         }
@@ -144,7 +143,6 @@ public class ProfileActivity extends AppCompatActivity {
         });
     }
 
-    //    ask camera permissions
     private void askCameraPermissions() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.CAMERA}, 101);

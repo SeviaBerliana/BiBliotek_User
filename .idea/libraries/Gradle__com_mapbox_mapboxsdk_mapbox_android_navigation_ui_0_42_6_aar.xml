@@ -3,6 +3,7 @@
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ad3b3291bf1be86268284a264377d94/jetified-mapbox-android-navigation-ui-0.42.6/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e17eeb29ac42d8602c21a53b82ba8ec2/jetified-mapbox-android-navigation-ui-0.42.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5eeb9c55dadf6def98d7d22c48d31bc8/jetified-mapbox-android-navigation-ui-0.42.6/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ad3b3291bf1be86268284a264377d94/jetified-mapbox-android-navigation-ui-0.42.6/jars/classes.jar!/" />
@@ -11,6 +12,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e17eeb29ac42d8602c21a53b82ba8ec2/jetified-mapbox-android-navigation-ui-0.42.6/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e17eeb29ac42d8602c21a53b82ba8ec2/jetified-mapbox-android-navigation-ui-0.42.6/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e17eeb29ac42d8602c21a53b82ba8ec2/jetified-mapbox-android-navigation-ui-0.42.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5eeb9c55dadf6def98d7d22c48d31bc8/jetified-mapbox-android-navigation-ui-0.42.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5eeb9c55dadf6def98d7d22c48d31bc8/jetified-mapbox-android-navigation-ui-0.42.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5eeb9c55dadf6def98d7d22c48d31bc8/jetified-mapbox-android-navigation-ui-0.42.6/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mapbox.mapboxsdk/mapbox-android-navigation-ui/0.42.6/f42b8336dd5bc6be5b2ab613479a6cbc33e68f3e/mapbox-android-navigation-ui-0.42.6-javadoc.jar!/" />

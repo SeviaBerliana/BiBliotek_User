@@ -71,7 +71,6 @@ public class RegisterActivity extends AppCompatActivity {
                     progressDialog.setProgressStyle(android.app.ProgressDialog.STYLE_SPINNER);
                     progressDialog.show();
 
-                    //register to firebase
                     firebaseAuth.createUserWithEmailAndPassword(et_email.getText().toString(), et_password.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {

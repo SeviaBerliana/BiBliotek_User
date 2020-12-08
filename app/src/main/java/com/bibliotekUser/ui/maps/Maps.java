@@ -101,7 +101,7 @@ public class Maps extends AppCompatActivity implements OnMapReadyCallback, Permi
                         .directionsRoute(currentRoute)
                         .shouldSimulateRoute(simulateRoute)
                         .build();
-                // Call this method with Context from within an Activity
+
                 NavigationLauncher.startNavigation(Maps.this, options);
             }
         });

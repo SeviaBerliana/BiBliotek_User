@@ -46,14 +46,13 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(!email.getText().toString().equals("") && !password.getText().toString().equals("")) {
-                    //login
+
                     firebaseAuth.signInWithEmailAndPassword(email.getText().toString().trim(), password.getText().toString().trim()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                                 if (user != null) {
-                                    // Check if user's email is verified
                                     boolean emailVerified = user.isEmailVerified();
                                     if (emailVerified) {
                                         loadPreferences();

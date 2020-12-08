@@ -97,7 +97,7 @@ public class PengumumanFragment extends Fragment {
                     for (int i = 0; i < jsonArray.length(); i++) {
                         JSONObject jsonObject = (JSONObject) jsonArray.get(i);
 
-                        String id                   =  jsonObject.optString("id");
+                        String id                   = jsonObject.optString("id");
                         String judul                = jsonObject.optString("judul");
                         String deskripsi            = jsonObject.optString("deskripsi");
 
