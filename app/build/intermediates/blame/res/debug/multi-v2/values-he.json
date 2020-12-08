@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PBPApplication\\TUBES UAS\\UnitTesting\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+            "outputFile": "F:\\KULIAH\\Semester 5\\PBP\\UAS\\FIX\\user\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-2\\files-2.1\\ffe062db1a692c220794fa0d800be75c\\jetified-mapbox-android-navigation-0.42.6\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\e966381c73554dfa12ae92ec0553f342\\jetified-mapbox-android-sdk-9.2.0\\res\\values-he\\values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,177,331,407,480,553,638,725,841,944,1094,1208,1345",
+                        "endColumns": "121,153,75,72,72,84,86,115,102,149,113,136,68",
+                        "endOffsets": "172,326,402,475,548,633,720,836,939,1089,1203,1340,1409"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,18,19,20,21,22,23,24,25,26,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "827,949,1103,1179,1252,1325,1410,1497,1613,1716,1866,1980,2117",
+                        "endColumns": "121,153,75,72,72,84,86,115,102,149,113,136,68",
+                        "endOffsets": "944,1098,1174,1247,1320,1405,1492,1608,1711,1861,1975,2112,2181"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\10c58b2dcb0dc6d648640d89cdef2897\\jetified-mapbox-android-navigation-0.42.6\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-2\\files-2.1\\0ad3b3291bf1be86268284a264377d94\\jetified-mapbox-android-navigation-ui-0.42.6\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\e17eeb29ac42d8602c21a53b82ba8ec2\\jetified-mapbox-android-navigation-ui-0.42.6\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,23 +52,6 @@
                         "startOffsets": "109,172,234,364,440,506,570,629,690,2299,2412,2456,2513,2570",
                         "endColumns": "62,61,75,75,65,63,58,60,57,42,43,56,56,44",
                         "endOffsets": "167,229,305,435,501,565,624,685,743,2337,2451,2508,2565,2610"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-2\\files-2.1\\e966381c73554dfa12ae92ec0553f342\\jetified-mapbox-android-sdk-9.2.0\\res\\values-he\\values-he.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,177,331,407,480,553,638,725,841,944,1094,1208,1345",
-                        "endColumns": "121,153,75,72,72,84,86,115,102,149,113,136,68",
-                        "endOffsets": "172,326,402,475,548,633,720,836,939,1089,1203,1340,1409"
-                    },
-                    "to": {
-                        "startLines": "15,16,17,18,19,20,21,22,23,24,25,26,27",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "827,949,1103,1179,1252,1325,1410,1497,1613,1716,1866,1980,2117",
-                        "endColumns": "121,153,75,72,72,84,86,115,102,149,113,136,68",
-                        "endOffsets": "944,1098,1174,1247,1320,1405,1492,1608,1711,1861,1975,2112,2181"
                     }
                 }
             ]

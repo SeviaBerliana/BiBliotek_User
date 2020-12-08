@@ -14,13 +14,27 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.bibliotekUser.R;
+import com.bibliotekUser.api.UserAPI;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import static com.android.volley.Request.Method.POST;
 
 public class RegisterActivity extends AppCompatActivity {
     FirebaseAuth firebaseAuth;
@@ -80,12 +94,8 @@ public class RegisterActivity extends AppCompatActivity {
                                                                 public void onComplete(@NonNull Task task) {
 
                                                                     if (task.isSuccessful()) {
-                                                                        et_email.setText("");
-                                                                        et_password.setText("");
-                                                                        et_nama.setText("");
+                                                                        addUser(et_email.getText().toString(), et_password.getText().toString(), et_nama.getText().toString());
                                                                         progressDialog.dismiss();
-                                                                        startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
-                                                                        finish();
                                                                     }
                                                                 }
                                                             });
@@ -127,6 +137,47 @@ public class RegisterActivity extends AppCompatActivity {
                 finish();
             }
         });
+    }
+
+    public void addUser(final String email, final String password, final String nama_lengkap){
+        RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
+
+        StringRequest stringRequest = new StringRequest(POST, UserAPI.URL_STORE, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                try {
+                    JSONObject obj = new JSONObject(response);
+                    if(obj.optString("message").equals("Add Pengguna Success"))
+                    {
+                        et_email.setText("");
+                        et_password.setText("");
+                        et_nama.setText("");
+                        startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+                        finish();
+                    }
+                    Toast.makeText(getApplicationContext(), obj.getString("message"), Toast.LENGTH_SHORT).show();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(getApplicationContext(), error.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        }){
+            @Override
+            protected Map<String, String> getParams()
+            {
+                Map<String, String>  params = new HashMap<String, String>();
+                params.put("email", email);
+                params.put("password", password);
+                params.put("nama_lengkap", nama_lengkap);
+
+                return params;
+            }
+        };
+        queue.add(stringRequest);
     }
 
 }

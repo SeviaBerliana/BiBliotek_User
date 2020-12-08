@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PBPApplication\\TUBES UAS\\UnitTesting\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "outputFile": "F:\\KULIAH\\Semester 5\\PBP\\UAS\\FIX\\user\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-2\\files-2.1\\ffe062db1a692c220794fa0d800be75c\\jetified-mapbox-android-navigation-0.42.6\\res\\values-id\\values-id.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "57",
-                        "endOffsets": "108"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-2\\files-2.1\\0ad3b3291bf1be86268284a264377d94\\jetified-mapbox-android-navigation-ui-0.42.6\\res\\values-id\\values-id.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\e17eeb29ac42d8602c21a53b82ba8ec2\\jetified-mapbox-android-navigation-ui-0.42.6\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "113,163,215",
                         "endColumns": "49,51,52",
                         "endOffsets": "158,210,263"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\10c58b2dcb0dc6d648640d89cdef2897\\jetified-mapbox-android-navigation-0.42.6\\res\\values-id\\values-id.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
                     }
                 }
             ]

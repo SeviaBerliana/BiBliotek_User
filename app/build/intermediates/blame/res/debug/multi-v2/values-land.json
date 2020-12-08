@@ -1,27 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PBPApplication\\TUBES UAS\\UnitTesting\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "F:\\KULIAH\\Semester 5\\PBP\\UAS\\FIX\\user\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-2\\files-2.1\\0ad3b3291bf1be86268284a264377d94\\jetified-mapbox-android-navigation-ui-0.42.6\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\5865bef9f517aac03541effd167a8116\\appcompat-1.2.0\\res\\values-land\\values-land.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,112,173,238,296",
-                        "endColumns": "56,60,64,57,50",
-                        "endOffsets": "107,168,233,291,342"
-                    },
-                    "to": {
-                        "startLines": "5,22,23,24,25",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "264,1479,1540,1605,1663",
-                        "endColumns": "56,60,64,57,50",
-                        "endOffsets": "316,1535,1600,1658,1709"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 },
                 {
-                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-2\\files-2.1\\0bdc1bb9426cc18d220f338b679bc0d4\\material-1.2.1\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\0bdc1bb9426cc18d220f338b679bc0d4\\material-1.2.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,13 +33,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ACER\\.gradle\\caches\\transforms-2\\files-2.1\\5865bef9f517aac03541effd167a8116\\appcompat-1.2.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\e17eeb29ac42d8602c21a53b82ba8ec2\\jetified-mapbox-android-navigation-ui-0.42.6\\res\\values-land\\values-land.xml",
                     "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,112,173,238,296",
+                        "endColumns": "56,60,64,57,50",
+                        "endOffsets": "107,168,233,291,342"
+                    },
+                    "to": {
+                        "startLines": "5,22,23,24,25",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "264,1479,1540,1605,1663",
+                        "endColumns": "56,60,64,57,50",
+                        "endOffsets": "316,1535,1600,1658,1709"
                     }
                 }
             ]
